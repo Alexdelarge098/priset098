@@ -4,7 +4,7 @@ echo "Enter the number to check"
 
 read n 
 
-if ( $n -le 10 )
+if [[ $n -le ]]
 then
  echo "Te value is lesser than 10"
 else
